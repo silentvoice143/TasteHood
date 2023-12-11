@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TasteHood</title>
+
+    <!-- google font link  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Arapey&family=Cormorant+Garamond&family=Kaushan+Script&family=Lobster&family=Merriweather&family=Montserrat&family=Mulish&family=Nunito&family=Pacifico&family=Quicksand:wght@400;600&family=Roboto&family=Rokkitt&family=Sail&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- iconify  -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- bootstrap  -->
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-box" id="top">
+      <img class="top-img" src="./pexels-lisa-fotios-776538.jpg" alt="" />
+      <header>
+        <nav>
+          <h1 class="brand">TasteHood</h1>
+          <ul class="nav-list">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">Menu</li>
+            <li class="nav-item">Reservation</li>
+            <li class="nav-item">Gallery</li>
+            <li class="nav-item">Contacts</li>
+          </ul>
+          <iconify-icon
+            style=""
+            class="menu-icon"
+            icon="material-symbols:menu"
+            width="28"
+            height="28"
+          ></iconify-icon>
+        </nav>
+      </header>
+      <div class="intro">
+        <h1>Good Food, Good Vibes</h1>
+        <p>
+          Enjoy a delicious food with TasteHood. Searching for home vibes please
+          be sure to come home and enjoy a nice meal. <br />
+          TasteHood hai, toh ghar wali feeling hai.
+        </p>
+        <button class="book-btn">Book a Table</button>
+      </div>
+    </div>
+    <div class="second-box">
+      <div class="second-left">
+        <div class="top-box-2">
+          <div class="box-2img">
+            <img src="./images/Screenshot 2023-12-05 130646.png" alt="" />
+          </div>
+          <div class="box-2img right2-img">
+            <img src="./images/Screenshot 2023-12-05 130714.png" alt="" />
+          </div>
+        </div>
+        <div class="lower-box-2">
+          <div class="box-2img">
+            <img src="./images/Screenshot 2023-12-05 130724.png" alt="" />
+          </div>
+          <div class="box-2img right2-img">
+            <img src="./images/Screenshot 2023-12-05 130802.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="second-right">
+        <h1>Our Story</h1>
+        <p>
+          In a quaint town named Oakville, nestled between rolling hills and a
+          meandering river, there stood a charming little restaurant called
+          "Bella Cucina." Run by the passionate chef, Isabella, the eatery
+          quickly became a local favorite for its delectable dishes and warm
+          ambiance. Isabella, with her culinary prowess and dedication, infused
+          each recipe with a touch of love. The restaurant's success soared as
+          word spread about its mouthwatering flavors and cozy atmosphere.
+          Regulars became like family, and newcomers were welcomed with open
+          arms.
+          <span id="hiddenpara" style="display: none">
+            One day, a renowned food critic named Alexander visited Bella
+            Cucina. Nervous yet determined, Isabella prepared a special menu
+            showcasing her signature creations. The critic was enchanted by the
+            exquisite flavors and wrote a glowing review that catapulted Bella
+            Cucina to culinary stardom. As the restaurant gained acclaim,
+            Isabella remained true to her roots, ensuring that Bella Cucina
+            retained its intimate charm despite the growing fame. The once-small
+            eatery now had a line of patrons eagerly waiting for a taste of
+            Isabella's culinary magic. The story of Bella Cucina became a
+            testament to the power of passion and authenticity in the culinary
+            world, proving that a humble restaurant could rise to greatness
+            through the love and dedication of its chef.
+          </span>
+        </p>
+        <button id="parabtn" onclick="showpara()">Know More About Us..</button>
+      </div>
+    </div>
+    <div class="section-3" id="menu">
+      <div class="section-3-container">
+        <h1>Today's Special</h1>
+        <p>
+          Enjoy the meal of the day with special vibe of TasteHood <br />
+          Be a member of delightful moment with taste good be good.
+        </p>
+      </div>
+      <div class="cards-container-1">
+        <div class="card01">
+          <div class="card01-img">
+            <img src="./images/cardimg3.png" alt="" srcset="" />
+          </div>
+          <div class="card01-content">
+            <h3>French Toast with Maple syrup</h3>
+            <p class="timefordish">
+              <iconify-icon
+                icon="ph:timer-light"
+                style="color: white"
+                width="25"
+                height="25"
+              ></iconify-icon
+              ><span>10 min</span>
+            </p>
+            <div class="card01-bottom">
+              <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              <button class="orderdishbtn">Order now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card01">
+          <div class="card01-img">
+            <img src="./images/cardimg2.png" alt="" srcset="" />
+          </div>
+          <div class="card01-content">
+            <h3>French Toast with Maple syrup</h3>
+            <p class="timefordish">
+              <iconify-icon
+                icon="ph:timer-light"
+                style="color: white"
+                width="25"
+                height="25"
+              ></iconify-icon
+              ><span>10 min</span>
+            </p>
+            <div class="card01-bottom">
+              <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              <button class="orderdishbtn">Order now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card01">
+          <div class="card01-img">
+            <img src="./images/card01img.png" alt="" srcset="" />
+          </div>
+          <div class="card01-content">
+            <h3>French Toast with Maple syrup</h3>
+            <p class="timefordish">
+              <iconify-icon
+                icon="ph:timer-light"
+                style="color: white"
+                width="25"
+                height="25"
+              ></iconify-icon
+              ><span>10 min</span>
+            </p>
+            <div class="card01-bottom">
+              <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              <button class="orderdishbtn">Order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bookingsection">
+        <div class="left-bsection">
+          <h1>Discove the True Meaning of Taste.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut
+            ratione nobis quos alias sunt similique id veniam qui blanditiis
+            nesciunt incidunt dolorum magni modi autem, iure praesentium quasi
+            placeat?
+          </p>
+          <button class="book-btn btn-2">Book a Table</button>
+        </div>
+        <div class="right-bsection">
+          <div class="wallimg">
+            <img src="./images/wall.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="carousel-item-card">
+      <div class="carouselcard-img">
+        <img src="./images/girlimg.jpg" alt="" srcset="" />
+      </div>
+      <div class="carousel-content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        commodi quam repudiandae, vitae sit qui quas rem quae illo
+        necessitatibus quisquam eius dicta atque libero exercitationem cum autem
+        veritatis quia!
+      </div>
+    </div> -->
+
+    <!-- carousel  -->
+
+    <div class="carousel-container">
+      <img src="./images/review.jpg" alt="" class="carousel-background" />
+      <div class="black-shade"></div>
+      <div class="carousel-wrapper">
+        <div class="carousel-item">
+          <div class="carousel-item-card">
+            <div class="carouselcard-img">
+              <img src="./images/girlimg.jpg" alt="" srcset="" />
+            </div>
+            <div class="carousel-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              commodi quam repudiandae, vitae sit qui quas rem quae illo
+              necessitatibus quisquam eius dicta atque libero exercitationem cum
+              autem veritatis quia!
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-card">
+            <div class="carouselcard-img">
+              <img src="./images/girlimg.jpg" alt="" srcset="" />
+            </div>
+            <div class="carousel-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              commodi quam repudiandae, vitae sit qui quas rem quae illo
+              necessitatibus quisquam eius dicta atque libero exercitationem cum
+              autem veritatis quia!
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-card">
+            <div class="carouselcard-img">
+              <img src="./images/girlimg.jpg" alt="" srcset="" />
+            </div>
+            <div class="carousel-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              commodi quam repudiandae, vitae sit qui quas rem quae illo
+              necessitatibus quisquam eius dicta atque libero exercitationem cum
+              autem veritatis quia!
+            </div>
+          </div>
+        </div>
+        <!-- Add more items as needed -->
+      </div>
+
+      <!-- Optional: Navigation buttons -->
+      <div class="carousel-prev" onclick="prevSlide()">&#10094;</div>
+      <div class="carousel-next" onclick="nextSlide()">&#10095;</div>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <div class="indicator" onclick="showSlide(0)"></div>
+        <div class="indicator" onclick="showSlide(1)"></div>
+        <div class="indicator" onclick="showSlide(2)"></div>
+        <!-- Add more indicators as needed -->
+      </div>
+    </div>
+    <div class="section-3" style="padding-top: 5rem">
+      <div class="section-3-container">
+        <h1>Our Chefs</h1>
+        <p>
+          Enjoy the meal of the day with special vibe of TasteHood <br />
+          Be a member of delightful moment with taste good be good.
+        </p>
+      </div>
+      <div class="cards-container-1">
+        <div class="card01 card02">
+          <div class="card01-img">
+            <img src="./images/cardimg3.png" alt="" srcset="" />
+          </div>
+          <div class="card02-content">
+            <h3>Martin Luther</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quod porro nam incidunt voluptates explicabo
+              dignissimos corporis? Repellendus, accusamus quas.
+            </p>
+          </div>
+        </div>
+        <div class="card01 card02">
+          <div class="card01-img">
+            <img src="./images/cardimg2.png" alt="" srcset="" />
+          </div>
+          <div class="card02-content">
+            <h3>Ramu Kaka</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quod porro nam incidunt voluptates explicabo
+              dignissimos corporis? Repellendus, accusamus quas.
+            </p>
+          </div>
+        </div>
+        <div class="card01 card02">
+          <div class="card01-img">
+            <img src="./images/card01img.png" alt="" srcset="" />
+          </div>
+          <div class="card02-content">
+            <h3>Gopi Chacha</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quod porro nam incidunt voluptates explicabo
+              dignissimos corporis? Repellendus, accusamus quas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-section" id="gallery">
+      <h1>Gallery</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores
+        voluptatum perspiciatis, <br />
+        itaque nihil possimus dolorum quibusdam pariatur iure voluptatem.
+      </p>
+      <!-- <div class="gallery-pic-container">
+        <div class="lgallery">
+          <img src="./images/gallery1.png" alt="" srcset="" />
+        </div>
+        <div class="mgallery">
+          <div class="top-mgallery">
+            <img src="./images//gallery3.png" alt="" srcset="" />
+          </div>
+          <div class="bottom-mgallery">
+            <img src="./images//gallery4.png" alt="" srcset="" />
+          </div>
+        </div>
+        <div class="rgallery">
+          <img src="./images/gallery2.png" alt="" />
+        </div>
+      </div> -->
+
+      <div class="gallery-pic-container">
+        <div class="left">
+          <img src="./images/gallery1.png" alt="Image 1" />
+        </div>
+        <div class="middle">
+          <div class="row">
+            <img src="./images/gallery4.png" alt="Image 2" />
+          </div>
+          <div class="row">
+            <img src="./images/gallery3.png" alt="Image 4" />
+          </div>
+        </div>
+        <div class="right">
+          <img src="./images/gallery2.png" alt="Image 6" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-1st"><h1>TasteHood</h1></div>
+        <div class="footer-2nd">
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#top">Reservation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-4th">
+          <div class="social-icon-container">
+            <a href="">
+              <iconify-icon
+                icon="ic:outline-facebook"
+                style="color: white"
+                width="24"
+                height="24"
+              ></iconify-icon>
+            </a>
+            <a href="">
+              <iconify-icon
+                icon="ri:instagram-fill"
+                style="color: white"
+                width="24"
+                height="24"
+              ></iconify-icon>
+            </a>
+            <a href="">
+              <iconify-icon
+                icon="mingcute:youtube-fill"
+                style="color: white"
+                width="24"
+                height="24"
+              ></iconify-icon>
+            </a>
+            <a href="">
+              <iconify-icon
+                icon="solar:phone-bold"
+                style="color: white"
+                width="24"
+                height="24"
+              ></iconify-icon>
+            </a>
+          </div>
+          <div class="subscribe">
+            <h2>Be the first to get our newsletter</h2>
+            <div class="subscibe-box">
+              <input type="text" name="person" id="" />
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      const carouselWrapper = document.querySelector(".carousel-wrapper");
+      const totalItems = document.querySelectorAll(".carousel-item").length;
+      index = (index + totalItems) % totalItems; // Wrap around for infinite scrolling
+      const translateValue = -index * 100 + "%";
+      carouselWrapper.style.transform = `translateX(${translateValue})`;
+
+      // Update indicators
+      const indicators = document.querySelectorAll(".indicator");
+      indicators.forEach((indicator, i) => {
+        indicator.classList.toggle("active", i === index);
+      });
+
+      currentIndex = index;
+    }
+
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
+    showSlide(currentIndex);
+
+    function showpara() {
+      var para = document.getElementById("hiddenpara");
+      var parabtn = document.getElementById("parabtn");
+      console.log(para);
+      if (para.style.display === "none") {
+        para.style.display = "block";
+        parabtn.innerHTML = "Learn Less...";
+      } else {
+        para.style.display = "none";
+        parabtn.innerHTML = "Know More About Us..";
+      }
+    }
+  </script>
+</html>
